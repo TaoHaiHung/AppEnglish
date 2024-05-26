@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0973B9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0973B9</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorRed">#C62C2C</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorLightGray">#E0E0E0</color>
+    <color name="colorWhiteSmoke">#F5f5f5</color>
+
+    <!--start color button-->
+    <color name="color_yellow">#F3DA0A</color>
+    <color name="color_orange">#F3683E</color>
+    <color name="color_white">#F8EBEB</color>
+
+
+    <!--color background topic detail-->
+    <color name="color_background_topic_details">#EEFAEFD6</color>
+
+    <!--  color fragment look and choose  -->
+    <color name="color_red_tv_question">#FA1706</color>
+    <color name="color_white_frame_layout">#DFFFFFFF</color>
+
+    <!--  color item video   -->
+
+    <color name="color_gray_tv_description">#80807C</color>
+    <color name="color_gray">#C3B8B8B1</color>
+    <!--color item nav background-->
+    <color name="colorNavItemBackground">#490973b9</color>
+
+    <color name="bg_shimmer">#E7E7E7</color>
+</resources>

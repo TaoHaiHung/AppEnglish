@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".app_client.listen_and_guess.view.ResultListenFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_padding_default"
+        android:paddingEnd="@dimen/margin_padding_haft">
+
+        <TextView
+            android:id="@+id/tvUnitTitleName"
+            style="@style/FontHeaderTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_congratulation"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteSmoke"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_padding_default"
+        android:paddingTop="@dimen/margin_padding_haft"
+        android:paddingEnd="@dimen/margin_padding_default"
+        android:paddingBottom="@dimen/margin_padding_haft">
+
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:layout_marginEnd="@dimen/margin_padding_default"
+            android:background="@drawable/bg_light_button_color_red"
+            android:text="@string/text_btn_exit"
+            android:textAllCaps="false"
+            android:textColor="@color/colorRed" />
+
+        <Button
+            android:id="@+id/btnTryAgain"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:background="@drawable/bg_primary_button"
+            android:text="@string/text_btn_try_again"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</LinearLayout>

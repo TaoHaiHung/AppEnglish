@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gst_mock_englist_for_kids">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app_client.TogetherActivity"></activity>
+        <activity android:name=".app_client.video.view.LearnByVideoActivity" />
+        <activity android:name=".app_client.time.view.TimeActivity" />
+        <activity android:name=".app_client.game.view.GameTogetherActivity" />
+        <activity android:name=".app_client.other.OtherActivity" />
+        <activity android:name=".app_client.classfive.ExampleClassFiveActivity" />
+        <activity android:name=".app_client.vocabulary.view.GuessThePictureActivity" />
+        <activity android:name=".app_client.listen_and_guess.view.ListenAndGuessActivity" />
+        <activity android:name=".app_client.look_and_choose.view.LookAndChooseActivity" />
+        <activity android:name=".app_client.topic_detail.view.TopicDetailActivity" />
+        <activity android:name=".app_client.topic.view.TopicActivity" />
+        <activity android:name=".app_client.classone.SGKActivity" />
+        <activity android:name=".app_client.classone.ClassOneActivity" />
+        <activity android:name=".app_client.classone.ClassTwoMainActivity" />
+        <activity
+            android:name=".app_client.work_book.view.WorkBookDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".app_client.class_book.view.ClassBookDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".app_client.ebook.view.EBookActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".app_client.splash.SplashScreenActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".app_client.splash.MainActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait"
+            android:usesCleartextTraffic="true"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".app_client.video.view.LearnForVideoActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+
+        <receiver
+            android:name=".app_client.time.view.NotificationListener"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

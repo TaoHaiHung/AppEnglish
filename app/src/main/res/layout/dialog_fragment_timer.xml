@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessLeaf">
+        <TimePicker
+            android:id="@+id/time_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteSmoke"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_padding_default"
+        android:paddingTop="@dimen/margin_padding_haft"
+        android:paddingEnd="@dimen/margin_padding_default"
+        android:paddingBottom="@dimen/margin_padding_haft">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:layout_marginEnd="@dimen/margin_padding_default"
+            android:background="@drawable/bg_light_button_color_red"
+            android:text="@string/cancel_timer"
+            android:textColor="@color/colorRed" />
+
+        <Button
+            android:id="@+id/btn_agree"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:background="@drawable/bg_primary_button"
+            android:text="@string/btn_agree"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</LinearLayout>

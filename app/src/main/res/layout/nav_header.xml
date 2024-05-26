@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/bg_nav_header"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingStart="2dp"
+    android:paddingTop="@dimen/margin_padding_default"
+    android:paddingEnd="2dp"
+    android:paddingBottom="@dimen/margin_padding_haft"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf,UselessParent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/img_author"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/tv_margin_nav_app"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/tv_nav_header_app"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_size_nav_app"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_nav_margin_left_author"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/tv_nav_author_app"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_size_nav_author"
+            android:textStyle="italic"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+</LinearLayout>

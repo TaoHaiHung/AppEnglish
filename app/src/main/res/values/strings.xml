@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tiếng anh tiểu học</string>
+
+    //Text Button
+    <string name="text_btn_start">Bắt đầu</string>
+    <string name="text_btn_look_and_choose">Xem và chọn</string>
+    <string name="text_btn_listen_and_guess">Nghe và đoán</string>
+    <string name="text_btn_guess_image">Đoán Hình</string>
+    <string name="text_btn_view_video">Xem video và học</string>
+    <string name="text_btn_try_again">Chơi lại</string>
+    <string name="text_btn_exit">Thoát</string>
+    <string name="btn_rePlay">Chơi lại</string>
+
+    //Text
+    <string name="editext_check_result">Nhập câu trả lời</string>
+    <string name="cancel">Trở lại</string>
+    <string name="action_check">Kiểm tra</string>
+    <string name="edit_title">Kiểm tra câu trả lời</string>
+    <string name="tv_name_video">Tên Video</string>
+    <string name="title_which_is_the_picture">Hãy nghe và chọn hình nào !</string>
+    <string name="title_what_is_it">Đây là cái gì ?</string>
+    <string name="title_congratulation">Chúc mừng bạn đã hoàn thành !</string>
+
+    <!--   Text topic-->
+    <string name="alphabet">Bảng chữ cái</string>
+    <string name="number">Số đếm</string>
+    <string name="animal">Động vật</string>
+    <string name="christmas">Giáng sinh</string>
+    <string name="color">Màu sắc</string>
+    <string name="food">Đồ ăn</string>
+    <string name="fruit">Hoa quả</string>
+    <string name="flower">Bông hoa</string>
+    <string name="geometry">Hình học</string>
+    <string name="house">Nhà cửa</string>
+    <string name="nation">Quốc gia</string>
+    <string name="school">Trường học</string>
+    <string name="vehicle">Xe cộ</string>
+    <string name="water">Đồ uống</string>
+
+    <!-- Toast exception youtube   -->
+    <string name="check_your_internet">Làm ơn kiểm tra lại kết nối mạng của bạn !</string>
+    <string name="check_internet">Lỗi Mạng !</string>
+    <string name="exit">Thoát</string>
+
+    <string name="tv_des_video">Mô tả video</string>
+    <!--  menu navigation  -->
+    <string name="home_menu_action">Trang Chủ</string>
+    <string name="menu_title_learn">Học Tập</string>
+    <string name="nav_learn_title"><![CDATA[3 tuổi -> 12 tuổi]]></string>
+    <string name="nav_game_title">Trò Chơi Mới</string>
+    <string name="menu_title_communicate">Mục Khác</string>
+    <string name="nav_time_title">Hẹn Giờ Học</string>
+    <string name="nav_share_title">Chia Sẻ</string>
+    <string name="nav_review_title">Đánh Giá</string>
+    <string name="tv_nav_author_app">Trần Đình Trí</string>
+    <string name="tv_nav_header_app">Tiếng Anh Cho Trẻ Em</string>
+    <string name="nav_customer_care_title">Chăm Sóc Khách Hàng</string>
+    <string name="nav_advisory_title">Tư Vấn</string>
+
+    <!--  drawlayout open and close  -->
+    <string name="navigation_drawer_open">Mở</string>
+    <string name="navigation_drawer_close">Đóng</string>
+    <!--  dialog timer  -->
+    <string name="btn_agree"> Đồng ý</string>
+    <string name="cancel_timer"> Hủy</string>
+
+    <string name="delete_alarm">" Bạn có muốn xóa trường này không ?"</string>
+    <string name="delete_time"> Xóa báo thức </string>
+
+
+</resources>

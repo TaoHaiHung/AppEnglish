@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dialog fragment check result -->
+
+    <dimen name="font_body_text">14sp</dimen>
+    <dimen name="font_title_header">20sp</dimen>
+    <dimen name="tv_width">0dp</dimen>
+    <dimen name="button_min_height">36dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+    <dimen name="min_height_edittext_check_result">80dp</dimen>
+    <dimen name="font_button">14sp</dimen>
+    <dimen name="margin_padding_haft">8dp</dimen>
+    <dimen name="margin_padding_default">16dp</dimen>
+    <dimen name="img_height">80dp</dimen>
+    <dimen name="img_width">80dp</dimen>
+    <dimen name="lin_height">100dp</dimen>
+    <dimen name="edt_margin_top">10dp</dimen>
+    <dimen name="edt_text_size">18sp</dimen>
+    <dimen name="edt_padding">15dp</dimen>
+
+    <!--  Fragment guess the picture  -->
+
+    <dimen name="button_text_size">20sp</dimen>
+
+    <!-- Fragment home  -->
+
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="button_margin_top">100dp</dimen>
+    <dimen name="button_view_margin_top">50dp</dimen>
+    <dimen name="floating_button">55dp</dimen>
+    <dimen name="floating_button_margin_end">8dp</dimen>
+    <dimen name="floating_button_margin_bottom">8dp</dimen>
+
+    <!-- Fragment  listen and guess  -->
+
+    <dimen name="image_button_margin_start">20dp</dimen>
+    <dimen name="image_button_margin_top">16dp</dimen>
+    <dimen name="image_button_margin_end">20dp</dimen>
+    <dimen name="image_button_margin_bottom">20dp</dimen>
+    <dimen name="img_width_answer">120dp</dimen>
+    <dimen name="img_height_answer">120dp</dimen>
+    <dimen name="img_margin_top_answer">40dp</dimen>
+    <dimen name="img_margin_end_answer">40dp</dimen>
+    <dimen name="img_margin_start_answer">40dp</dimen>
+    <dimen name="tv_margin_top">80dp</dimen>
+    <dimen name="tv_size">20sp</dimen>
+    <dimen name="tv_margin_top_answer">8dp</dimen>
+    <dimen name="tv_text_size">25sp</dimen>
+
+    <!--  Fragment look and choose  -->
+
+    <dimen name="img_button_margin_start">8dp</dimen>
+    <dimen name="img_button_margin_top">8dp</dimen>
+    <dimen name="img_button_margin_end">20dp</dimen>
+    <dimen name="img_button_margin_bottom">20dp</dimen>
+    <dimen name="img_width_picture_choose">350dp</dimen>
+    <dimen name="img_height_picture_choose">180dp</dimen>
+    <dimen name="img_margin_top">64dp</dimen>
+    <dimen name="tv_width_listen_and_choose">150dp</dimen>
+    <dimen name="tv_height_listen_and_choose">80dp</dimen>
+    <dimen name="tv_margin_top_listen_and_choose">16dp</dimen>
+    <dimen name="tv_margin_end_listen_and_choose">20dp</dimen>
+    <dimen name="tv_size_look_and_choose">20sp</dimen>
+    <dimen name="tv_margin_start_listen_and_choose">16dp</dimen>
+    <dimen name="tv_margin_top_a_listen_and_choose">60dp</dimen>
+    <dimen name="tv_margin_start_c_listen_and_choose">20dp</dimen>
+    <dimen name="tv_margin_top_c_look_and_choose">16dp</dimen>
+    <dimen name="tv_margin_top_txt_look_and_choose">8dp</dimen>
+    <dimen name="tv_size_txt_look_and_choose">25sp</dimen>
+    <dimen name="tv_width_dialog_result">0dp</dimen>
+
+    <!--  item guess picture  -->
+
+    <dimen name="img_width_item_guess">80dp</dimen>
+    <dimen name="img_height_item_guess">80dp</dimen>
+    <dimen name="img_margin_top_item_guess">10dp</dimen>
+    <dimen name="img_height_top_item_tick">60dp</dimen>
+    <dimen name="img_width_top_item_tick">60dp</dimen>
+
+    <!--  item topic  -->
+
+    <dimen name="lin_width_item_topic">100dp</dimen>
+    <dimen name="img_height_item_topic">100dp</dimen>
+    <dimen name="img_margin_top_item_topic">10dp</dimen>
+    <dimen name="tv_width_item_topic">100dp</dimen>
+    <dimen name="tv_margin_top_item_topic">8dp</dimen>
+    <dimen name="tv_size_item_topic">14sp</dimen>
+
+    <!--  item topic detail  -->
+
+    <dimen name="tv_size_item_topic_detail">13sp</dimen>
+    <dimen name="lin_width_item_topic_detail">100dp</dimen>
+    <dimen name="img_height_item_topic_detail">100dp</dimen>
+    <dimen name="img_margin_top_item_topic_detail">10dp</dimen>
+    <dimen name="tv_width_item_topic_detail">100dp</dimen>
+    <dimen name="img_width_item_video">150dp</dimen>
+    <dimen name="img_height_item_video">150dp</dimen>
+    <dimen name="img_margin_item_video">5dp</dimen>
+    <dimen name="tv_size_item_video">18sp</dimen>
+    <dimen name="tv_margin_item_video">5dp</dimen>
+    <dimen name="tv_size_item_video_youtube">14sp</dimen>
+<!--  nav fragment home  -->
+    <dimen name="relative_margin">20dp</dimen>
+    <dimen name="tv_nav_margin_left_author">10dp</dimen>
+    <dimen name="tv_size_nav_author">14sp</dimen>
+    <dimen name="tv_size_nav_app">20sp</dimen>
+    <dimen name="tv_margin_nav_app">10dp</dimen>
+
+
+</resources>

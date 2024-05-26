@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_padding_default"
+        android:paddingEnd="@dimen/margin_padding_haft">
+
+        <TextView
+            android:id="@+id/tvUnitTitleName"
+            style="@style/FontHeaderTitle"
+            android:layout_width="@dimen/tv_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/edit_title"
+            android:textColor="@color/colorWhite"
+            tools:ignore="InefficientWeight" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivCloseCheckResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:padding="@dimen/margin_padding_haft"
+            app:srcCompat="@drawable/ic_close_white_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lin_height"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/img_pic"
+            android:layout_width="@dimen/img_width"
+            android:layout_height="@dimen/img_height"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:minHeight="@dimen/min_height_edittext_check_result"
+        android:padding="@dimen/margin_padding_default">
+
+
+    <EditText
+        android:background="@drawable/custom_edt_input_answer"
+        android:textSize="@dimen/edt_text_size"
+        android:gravity="start"
+        android:padding="@dimen/edt_padding"
+        android:id="@+id/etInputAnswer"
+        style="@style/FontBodyTextRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:hint="@string/editext_check_result"
+        android:inputType="text"
+        android:textColor="@color/colorBlack"
+        tools:ignore="Autofill" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteSmoke"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/margin_padding_default"
+        android:paddingTop="@dimen/margin_padding_haft"
+        android:paddingEnd="@dimen/margin_padding_default"
+        android:paddingBottom="@dimen/margin_padding_haft">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:layout_marginEnd="@dimen/margin_padding_default"
+            android:background="@drawable/bg_light_button_color_red"
+            android:text="@string/cancel"
+            android:textColor="@color/colorRed" />
+
+        <Button
+            android:id="@+id/btnCheckAnswer"
+            style="@style/FontButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:background="@drawable/bg_primary_button"
+            android:text="@string/action_check"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+</LinearLayout>

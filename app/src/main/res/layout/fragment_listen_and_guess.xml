@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    tools:context=".app_client.listen_and_guess.view.ListenAndGuessFragment">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/image_button_margin_start"
+        android:layout_marginTop="@dimen/image_button_margin_top"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_home_red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnListen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_button_margin_top"
+        android:layout_marginEnd="@dimen/image_button_margin_end"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_volume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/image_button_margin_end"
+        android:layout_marginBottom="@dimen/image_button_margin_bottom"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_redo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgD"
+        android:layout_width="@dimen/img_width_answer"
+        android:layout_height="@dimen/img_height_answer"
+        android:layout_marginTop="@dimen/img_margin_top_answer"
+        android:layout_marginEnd="@dimen/img_margin_end_answer"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgB"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgA"
+        android:layout_width="@dimen/img_width_answer"
+        android:layout_height="@dimen/img_height_answer"
+        android:layout_marginStart="@dimen/img_margin_start_answer"
+        android:layout_marginTop="@dimen/img_margin_start_answer"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgB"
+        android:layout_width="@dimen/img_width_answer"
+        android:layout_height="@dimen/img_height_answer"
+        android:layout_marginTop="@dimen/img_margin_start_answer"
+        android:layout_marginEnd="@dimen/img_margin_start_answer"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgC"
+        android:layout_width="@dimen/img_width_answer"
+        android:layout_height="@dimen/img_height_answer"
+        android:layout_marginStart="@dimen/img_margin_start_answer"
+        android:layout_marginTop="@dimen/img_margin_end_answer"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgA"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_margin_top"
+        android:text="@string/title_which_is_the_picture"
+        android:textSize="@dimen/tv_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_margin_top_answer"
+        android:textSize="@dimen/tv_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

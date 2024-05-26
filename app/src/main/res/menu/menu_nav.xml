@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/navHome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home_menu_action" />
+
+    </group>
+
+    <item android:title="@string/menu_title_learn">
+        <menu>
+            <item
+                android:id="@+id/navAgeFromThreeToTwelve"
+                android:icon="@drawable/ic_learn"
+                android:title="@string/nav_learn_title" />
+            <item
+                android:id="@+id/navTimer"
+                android:icon="@drawable/ic_timer"
+                android:title="@string/nav_time_title" />
+            <item
+                android:id="@+id/navGame"
+                android:icon="@drawable/ic_game"
+                android:title="@string/nav_game_title" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_title_communicate">
+        <menu>
+            <item
+                android:id="@+id/navShare"
+                android:icon="@drawable/ic_share"
+                android:title="@string/nav_share_title" />
+
+            <item
+                android:id="@+id/navReview"
+                android:icon="@drawable/ic_review"
+                android:title="@string/nav_review_title" />
+
+        </menu>
+    </item>
+    <item android:title="@string/nav_customer_care_title">
+        <menu>
+            <item
+                android:id="@+id/navAdvisory"
+                android:icon="@drawable/ic_phone"
+                android:title="@string/nav_advisory_title" />
+        </menu>
+    </item>
+</menu>

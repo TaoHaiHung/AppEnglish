@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tiếng anh tiểu học</string>
+    <string name="action_check">Check</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="animal">Animal</string>
+    <string name="btn_rePlay">Replay</string>
+    <string name="cancel">Cancle</string>
+    <string name="christmas">Christmas</string>
+    <string name="color">Color</string>
+    <string name="edit_title">Check Answer</string>
+    <string name="editext_check_result">Input Answer</string>
+    <string name="flower">Flower</string>
+    <string name="food">Food</string>
+    <string name="fruit">Fruit</string>
+    <string name="geometry">Geometry</string>
+    <string name="house">House</string>
+    <string name="nation">Nation</string>
+    <string name="number">Number</string>
+    <string name="school">School</string>
+    <string name="text_btn_exit">Exit</string>
+    <string name="text_btn_guess_image">Vocabulary</string>
+    <string name="text_btn_listen_and_guess">Listen and guess</string>
+    <string name="text_btn_look_and_choose">Look and choose</string>
+    <string name="text_btn_start">Start</string>
+    <string name="text_btn_try_again">Try again</string>
+    <string name="text_btn_view_video">Learn by Video</string>
+    <string name="title_congratulation">Congratulation</string>
+    <string name="title_what_is_it">What is it ?</string>
+    <string name="title_which_is_the_picture">Which is the picture ?</string>
+    <string name="tv_name_video">Video name</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="water">Drinks</string>
+    <!-- Toast exception youtube   -->
+    <string name="check_your_internet">Please check your internet connection !</string>
+    <string name="check_internet">Networking Errors !</string>
+    <string name="exit">Exit</string>
+    <string name="home_menu_action">Home</string>
+    <string name="tv_des_video">Description video</string>
+    <string name="menu_title_learn">Study</string>
+    <string name="nav_game_title">New Game</string>
+    <string name="nav_learn_title"><![CDATA[3 age -> 12 age]]></string>
+    <string name="nav_review_title">Review</string>
+    <string name="nav_share_title">Share</string>
+    <string name="nav_time_title">Timer Learn</string>
+    <string name="menu_title_communicate">Other</string>
+    <string name="tv_nav_author_app">Nguyen Hoang Hai</string>
+    <string name="tv_nav_header_app">English For Kids</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="nav_customer_care_title">Customer Care</string>
+    <string name="nav_advisory_title">Advisory</string>
+    <string name="btn_agree">Agree</string>
+    <string name="cancel_timer">Cancel</string>
+    <string name="delete_alarm">Do you want to delete this field ?</string>
+    <string name="delete_time">"Delete Alarm "</string>
+</resources>

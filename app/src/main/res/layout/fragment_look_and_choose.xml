@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    tools:context=".app_client.look_and_choose.view.LookAndChooseFragment">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/img_button_margin_start"
+        android:layout_marginTop="@dimen/img_button_margin_top"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_home_red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/img_button_margin_end"
+        android:layout_marginBottom="@dimen/img_button_margin_bottom"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_redo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgAnswer"
+        android:layout_width="@dimen/img_width_picture_choose"
+        android:layout_height="@dimen/img_height_picture_choose"
+        android:layout_marginTop="@dimen/img_margin_top"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvD"
+        android:layout_width="@dimen/tv_width_listen_and_choose"
+        android:layout_height="@dimen/tv_height_listen_and_choose"
+        android:layout_marginTop="@dimen/tv_margin_top_listen_and_choose"
+        android:layout_marginEnd="@dimen/tv_margin_end_listen_and_choose"
+        android:background="@drawable/custom_textview"
+        android:gravity="center"
+        android:textSize="@dimen/tv_size_look_and_choose"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvB" />
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_width="@dimen/tv_width_listen_and_choose"
+        android:layout_height="@dimen/tv_height_listen_and_choose"
+        android:layout_marginStart="@dimen/tv_margin_start_listen_and_choose"
+        android:layout_marginTop="@dimen/tv_margin_top_a_listen_and_choose"
+        android:background="@drawable/custom_textview"
+        android:gravity="center"
+        android:textSize="@dimen/tv_size_look_and_choose"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnswer" />
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_width="@dimen/tv_width_listen_and_choose"
+        android:layout_height="@dimen/tv_height_listen_and_choose"
+        android:layout_marginTop="@dimen/tv_margin_top_a_listen_and_choose"
+        android:layout_marginEnd="@dimen/tv_margin_end_listen_and_choose"
+        android:background="@drawable/custom_textview"
+        android:gravity="center"
+        android:textSize="@dimen/tv_size_look_and_choose"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnswer" />
+
+    <TextView
+        android:id="@+id/tvC"
+        android:layout_width="@dimen/tv_width_listen_and_choose"
+        android:layout_height="@dimen/tv_height_listen_and_choose"
+        android:layout_marginStart="@dimen/tv_margin_start_c_listen_and_choose"
+        android:layout_marginTop="@dimen/tv_margin_top_c_look_and_choose"
+        android:background="@drawable/custom_textview"
+        android:gravity="center"
+        android:textSize="@dimen/tv_size_look_and_choose"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvA" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tv_margin_top_txt_look_and_choose"
+        android:text="@string/title_what_is_it"
+        android:textColor="@color/color_red_tv_question"
+        android:textSize="@dimen/tv_size_txt_look_and_choose"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAnswer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

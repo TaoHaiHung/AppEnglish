@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/custom_background_splash_screen</item>
+    </style>
+
+    <style name="FontButton">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/font_button</item>
+    </style>
+
+    <style name="FontHeaderTitle">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_bold</item>
+        <item name="android:textSize">@dimen/font_title_header</item>
+    </style>
+
+    <style name="FontBodyTextRegular">
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/font_body_text</item>
+    </style>
+
+</resources>
