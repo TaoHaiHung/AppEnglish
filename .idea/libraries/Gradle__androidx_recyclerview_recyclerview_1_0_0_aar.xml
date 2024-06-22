@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.recyclerview:recyclerview:1.0.0@aar">
+  <library name="Gradle: androidx.recyclerview:recyclerview:1.0.0@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e984cbd182298830ed61b17c6b576c15/transformed/recyclerview-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>

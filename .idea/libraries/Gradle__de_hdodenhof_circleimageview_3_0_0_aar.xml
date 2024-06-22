@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: de.hdodenhof:circleimageview:3.0.0@aar">
+  <library name="Gradle: de.hdodenhof:circleimageview:3.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/17b2a60c599b860211ce1f28f1c73321/transformed/jetified-circleimageview-3.0.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/17b2a60c599b860211ce1f28f1c73321/transformed/jetified-circleimageview-3.0.0/jars/classes.jar!/" />
