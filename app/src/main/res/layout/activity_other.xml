@@ -127,6 +127,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
+                android:visibility="gone"
                 android:id="@+id/btnMiniGame"
                 android:layout_width="@dimen/button_width"
                 android:layout_height="wrap_content"
@@ -150,7 +151,7 @@
                 android:text="Giới thiệu ứng dụng"
                 android:textAllCaps="false"
                 app:elevation="10dp"
-                app:layout_constraintBottom_toTopOf="@+id/guiline_six"
+                app:layout_constraintBottom_toTopOf="@+id/guiline_five"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="RtlHardcoded" />

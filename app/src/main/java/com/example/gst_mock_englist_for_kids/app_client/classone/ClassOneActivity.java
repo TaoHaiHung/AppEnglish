@@ -14,6 +14,9 @@ import com.example.gst_mock_englist_for_kids.app_client.look_and_choose.view.Loo
 import com.example.gst_mock_englist_for_kids.app_client.topic.view.TopicActivity;
 import com.example.gst_mock_englist_for_kids.app_client.vocabulary.view.GuessThePictureActivity;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ClassOneActivity extends AppCompatActivity {
 
     private CardView cvSGK, cvExample;
@@ -50,11 +53,51 @@ public class ClassOneActivity extends AppCompatActivity {
         }
         if (value5 != null && value5.equalsIgnoreCase("Class 5")) {
             actionClick("SGK5", "https://drive.google.com/file/d/1K_3vFxQCeB3E-KKiZ7DV7YcHlS3_EWkj/view?usp=sharing");
-            keyScreen(ExampleClassFiveActivity.class);
+            List<String> myList = new ArrayList<>();
+            myList.add("TopicActivity.class");
+            myList.add("LookAndChooseActivity.class");
+            myList.add("ListenAndGuessActivity.class");
+            myList.add("GuessThePictureActivity.class");
+
+            int randomIndex = (int)(Math.random() * myList.size());
+            String randomElement = myList.get(randomIndex);
+
+            System.out.println("Phần tử ngẫu endian: " + randomElement);
+            randomExam(randomElement);
         }
 
 
     }
+
+    private void randomExam(String randomElement) {
+        cvExample.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                switch (randomElement) {
+                    case "TopicActivity.class":
+                        Intent topicIntent = new Intent(ClassOneActivity.this, TopicActivity.class);
+                        startActivity(topicIntent);
+                        break;
+                    case "LookAndChooseActivity.class":
+                        Intent lookAndChooseIntent = new Intent(ClassOneActivity.this, LookAndChooseActivity.class);
+                        startActivity(lookAndChooseIntent);
+                        break;
+                    case "ListenAndGuessActivity.class":
+                        Intent listenAndGuessIntent = new Intent(ClassOneActivity.this, ListenAndGuessActivity.class);
+                        startActivity(listenAndGuessIntent);
+                        break;
+                    case "GuessThePictureActivity.class":
+                        Intent guessThePictureIntent = new Intent(ClassOneActivity.this, GuessThePictureActivity.class);
+                        startActivity(guessThePictureIntent);
+                        break;
+                    default:
+                        break;
+                }
+
+            }
+        });
+    }
+
 
     private void actionClick(final String key, final String value) {
         cvSGK.setOnClickListener(new View.OnClickListener() {
@@ -75,5 +118,26 @@ public class ClassOneActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        Intent intent = getIntent();
+        String value5 = intent.getStringExtra("class5");
+        if (value5 != null && value5.equalsIgnoreCase("Class 5")) {
+            actionClick("SGK5", "https://drive.google.com/file/d/1K_3vFxQCeB3E-KKiZ7DV7YcHlS3_EWkj/view?usp=sharing");
+            List<String> myList = new ArrayList<>();
+            myList.add("TopicActivity.class");
+            myList.add("LookAndChooseActivity.class");
+            myList.add("ListenAndGuessActivity.class");
+            myList.add("GuessThePictureActivity.class");
+
+            int randomIndex = (int)(Math.random() * myList.size());
+            String randomElement = myList.get(randomIndex);
+
+            System.out.println("Phần tử ngẫu endian: " + randomElement);
+            randomExam(randomElement);
+        }
+        super.onResume();
     }
 }
